@@ -1,0 +1,382 @@
+/*------Fonts-------*/
+@font-face {
+    font-family: 'Font';
+    src: url('Font-Black.woff2') format('woff2'),
+        url('Font-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Book';
+    src: url('Font-Book.woff2') format('woff2'),
+        url('Font-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font';
+    src: url('Font-Medium.woff2') format('woff2'),
+        url('Font-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font';
+    src: url('Font-Bold.woff2') format('woff2'),
+        url('Font-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*-----SCROLL BAR ------------*/
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #313a4d #aacc00;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #aacc00;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #313a4d;
+  border-radius: 20px;
+  border: 3px solid #aacc00;
+}
+
+
+/*------------------Header -----------------*/
+html{
+  background-color: #aacc00;   /* scroll thumb & track */
+}
+
+.container{
+    margin: 2vh;
+  background-color: inherit;
+  padding: 2vh;
+  color: #313a4d;
+}
+
+.maintitle{
+    font-size: 12vh;
+   font-family: 'Font';
+   font-weight: 900;
+   font-style: normal;
+  
+}
+.sub-maintitle{
+  font-size: 12vh;
+   font-family: 'Font';
+   font-weight: 900;
+   font-style: normal;
+}
+
+.description{
+  font-size: sc;
+  font-family: 'Font Book';
+     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.description{
+  width: 100%;
+  font-size: 3.5vh;
+}
+
+.description a{
+  text-decoration: underline;
+  color: #313a4d;
+    font-weight: 900;
+  
+}
+.divider hr{
+  margin-top: 8vh;
+  width: 30%;
+   border: none;
+   height: 3px;
+    background-color: #313a4d;
+}
+/*-----------Links and Latest Episode -----------------*/
+/*.logo{
+  height: 50vh;
+    width:50vh;
+   float: left;
+    border-radius: 5%;
+    box-shadow: -1vh 1vh black;
+    margin-bottom:6vh;
+    margin-top: 6vh;
+}*/
+
+.links{
+  font-size: 4vh;
+  text-decoration: none;
+   font-family: 'Font';
+   font-weight: 900;
+   font-style: normal;
+}
+
+.links i{
+  text-decoration: none;
+  color: #313a4d;
+  font-size: 8vh;
+   margin: 2vh;
+}
+
+.links a{
+  text-decoration: none;
+}
+
+/*------------------Player -----------------*/
+
+.player p{
+    font-family: 'Font';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 4vh;
+}
+
+#box{
+    width: 100%;
+    height: 300px;
+    top:0;
+    left:0;
+    overflow: auto;
+    border: solid #313a4d 3px;
+    border-radius: 1%;
+}
+
+#box a{
+     font-size: 3.7vh;
+  font-family: 'Font Book';
+     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    text-decoration: none;
+    color: #313a4d;
+    margin-left: 3vh;
+}
+#box a:hover{
+    background-color: #313a4d;
+    color: #aacc00;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+#box br{
+    margin: 1.5vh;
+    margin-left: 1vh;
+    
+}
+/*-----------------Hosts -----------------*/
+
+.hosts p{
+     font-family: 'Font';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 5vh;
+    text-align: center;
+    
+}
+
+.hosts img{
+    padding: 2vh;
+    height: 70%;
+    width: 70%;
+    border-radius: 2vh;
+    border: 1px solid #313a4d;
+}
+
+.hosts a{
+     font-size: 4vh;
+  font-family: 'Font Book';
+     font-weight: bold;;
+    font-style: normal;
+    font-display: swap;
+    color: #313a4d;
+    padding: 5vh;
+    text-decoration: underline;
+}
+
+/*------------------Hosts -----------------*/
+
+.footer{
+    margin:0;
+    width: 100%;
+    background-color: #aacc00;
+    padding-bottom: 5vh;
+}
+
+.footer button{
+    border: 2px solid #313a4d;
+    padding: 1vh 8vh 1vh;
+    border-radius: 20vh;
+    font-size: 2.8vh;
+    background-color: #aacc00;
+    color: #313a4d;
+}
+.footer button:hover{
+    background-color: #313a4d;
+    color: #aacc00;
+}
+.footer span{
+    color: #313a4d;
+    letter-spacing: 0.5vh;
+     font-family: 'Font Book';
+     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+.footer a{
+    text-decoration: underline;
+    color: #313a4d;
+}
+.footer a:hover{
+    background-color: #313a4d;
+    color: #aacc00;
+    padding: 0.5vh;
+    text-decoration: none;
+}
+.footerdivider hr{
+  margin-top: 8vh;
+  width: 100%;
+   border: none;
+   height: 3px;
+    background-color: #313a4d;
+}
+
+/*((((((((((((((MEDIA QUERIES))))))))))))))*/
+
+
+@media (min-width: 1281px) {
+  
+  .container{
+        margin:23vh;
+    }
+    .footer{
+        margin-top: -20vh;
+    }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .container{
+        margin:15vh;
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+    .maintitle{
+        font-size: 10vh;
+    }
+    .sub-maintitle{
+        font-size: 10vh;
+    }
+    .description{
+        font-size: 3vh;
+    }
+    .links{
+        font-size: 2vh;
+    }
+    .links i{
+        font-size:6vh;
+    }
+    #box a{
+        font-size: 3vh;
+    }
+    .hosts img{
+        height: 80%;
+        width: 80%;
+    }
+    .hosts a{
+        font-size: 4vh;
+    }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .maintitle{
+        font-size: 6vh;
+    }
+    .sub-maintitle{
+        font-size: 6vh;
+    }
+    .description{
+        font-size: 2vh;
+    }
+    .links{
+        font-size: 1vh;
+    }
+    .links i{
+        font-size:2.5vh;
+    }
+    #box a{
+        font-size: 2vh;
+    }
+    .hosts img{
+        height: 90%;
+        width: 90%;
+    }
+    .hosts a{
+        font-size: 3vh;
+    }
+    .footer span{
+        font-size: 1.8vh;
+        font-weight: bold;
+    }
+    .footer button{
+        font-size: 1.5vh;
+    }
+    .player p{
+        font-size: 3vh;
+    }
+    .hosts p{
+        font-size: 3vh;
+    }
+    .divider hr{
+        width: 50%;
+    }
+
+ 
+}
+
+
+
+
+
+
+
