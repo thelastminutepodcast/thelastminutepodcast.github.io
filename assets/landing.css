@@ -180,6 +180,11 @@ html{
     margin-left: 1vh;
     
 }
+
+#box hr{
+    width: 100%;
+    color: inherit;
+}
 /*-----------------Hosts -----------------*/
 
 .hosts p{
