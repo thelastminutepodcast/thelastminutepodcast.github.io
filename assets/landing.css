@@ -196,12 +196,11 @@ html{
     padding: 2vh;
     height: 70%;
     width: 70%;
-    border-radius: 2vh;
-    border: 1px solid #313a4d;
+    border-radius: 5vh;
 }
 
 .hosts a{
-     font-size: 4vh;
+     font-size: 3.3vh;
   font-family: 'Font Book';
      font-weight: bold;;
     font-style: normal;
