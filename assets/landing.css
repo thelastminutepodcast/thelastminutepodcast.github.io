@@ -147,44 +147,60 @@ html{
     font-size: 4vh;
 }
 
-#box{
-    width: 100%;
-    height: 300px;
+   #box{
     top:0;
     left:0;
     overflow: auto;
     border: solid #313a4d 3px;
     border-radius: 1%;
+    height:30vh;
+    width:100%;
 }
 
-#box a{
-     font-size: 3.7vh;
-  font-family: 'Font Book';
-     font-weight: normal;
+  ul{
+    border: solid #313a4d 3px;
+    background-color: #313a4d;
+    border-radius: 1%;
+    height:40vh;
+    width:100%;
+    list-style:none;
+    margin:0;
+    overflow:auto;
+    padding-inline-start: 0px;
+}
+  li{
+    display:flex;
+    align-items:center;
+    background-color: #aacc00;
+    margin: 1px 0 0 0;
+}
+
+    li:hover {
+        background-color: #313a4d;
+        color: #aacc00;
+    }
+
+    li:hover a{
+        background-color: #313a4d;
+        color: #aacc00;
+    }
+
+    li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0.2em 0.2em 0.2em;
+    font-size: 3.7vh;
+    font-family: 'Font Book';
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 
     text-decoration: none;
     color: #313a4d;
-    margin-left: 3vh;
-}
-#box a:hover{
-    background-color: #313a4d;
-    color: #aacc00;
-    padding-left: 1vh;
-    padding-right: 1vh;
 }
 
-#box br{
-    margin: 1.5vh;
-    margin-left: 1vh;
-    
-}
-
-#box hr{
-    width: 100%;
-    color: inherit;
-}
 /*-----------------Hosts -----------------*/
 
 .hosts p{
