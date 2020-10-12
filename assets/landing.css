@@ -340,6 +340,9 @@ html{
     .hosts a{
         font-size: 4vh;
     }
+    li a{
+        font-size: 3.3vh;
+    }
   
 }
 
@@ -389,6 +392,9 @@ html{
     }
     .divider hr{
         width: 50%;
+    }
+    li a{
+        font-size: 3vh;
     }
 
  
