@@ -176,7 +176,7 @@
   border-radius: 3px 0 0 3px;
 }
 .audio-player .player-controls .progress__bar {
-  background: #1ec279;
+  background: #313a4d;
   z-index: 1;
 }
 .audio-player .player-controls .progress__bar:after {
@@ -188,7 +188,7 @@
   margin-top: -3px;
   content: "";
   border-radius: 6px;
-  background: #1ec279;
+  background: #313a4d;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
