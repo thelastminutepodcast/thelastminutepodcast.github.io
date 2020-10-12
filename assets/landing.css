@@ -65,6 +65,7 @@ html{
   background-color: inherit;
   padding: 2vh;
   color: #313a4d;
+  z-index: 1;
 }
 
 .maintitle{
@@ -139,28 +140,10 @@ html{
 
 /*------------------Player -----------------*/
 
-.player p{
-    font-family: 'Font';
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-    font-size: 4vh;
-}
-
-   #box{
-    top:0;
-    left:0;
-    overflow: auto;
-    border: solid #313a4d 3px;
-    border-radius: 1%;
-    height:30vh;
-    width:100%;
-}
 
   ul{
     border: solid #313a4d 3px;
     background-color: #313a4d;
-    border-radius: 1%;
     height:40vh;
     width:100%;
     list-style:none;
