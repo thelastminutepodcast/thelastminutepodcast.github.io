@@ -17,7 +17,6 @@ async function fetchData (url) {
 let tracks = [];
 
 // fetchData and init it to audio player object from player.js
-// Depends on player.js
 let p = Promise.resolve(fetchData(url));
 p.then(items => {
     tracks = items;
